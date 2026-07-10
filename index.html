@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        http-equiv="refresh"
+        content="5;url=https://secure.eicar.org/eicar.com.txt"
+    >
+
+    <title>MDO Safe Links Test</title>
+</head>
+
+<body>
+    <h1>Microsoft Defender for Office 365 Test</h1>
+
+    <p>
+        Teste controlado de Safe Links.
+        O redirecionamento ocorrerá dentro de cinco segundos.
+    </p>
+
+    <script>
+        setTimeout(function () {
+            window.location.replace(
+                "https://secure.eicar.org/eicar.com.txt"
+            );
+        }, 5000);
+    </script>
+</body>
+</html>
